@@ -1,0 +1,149 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../../images/hero1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.loginWrapper{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffffa9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.loginLeft, .loginRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginLeft {
+    margin-right: 40px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logoContainer .logoImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.logoContainer .logoText {
+    font-size: 50px;
+    font-weight: 900;
+    color: #3C8DAD;
+}
+
+.loginLeft .loginDesc {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.loginRight .loginBox {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loginBox .loginInput {
+    height: 44px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 12px;
+    font-size: 15px;
+}
+
+.loginBox .loginButton {
+    height: 44px;
+    border: none;
+    background-color: #3C8DAD;
+    border-radius: 10px;
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    cursor: pointer;
+    outline: none;
+    border: 4px solid #3C8DAD;
+    border-style: groove;
+}
+
+.loginButton:disabled {
+    cursor: not-allowed;
+}
+
+.registerLink {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: #ffffffa9;
+    margin-top: 60px;
+    padding: 27px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.registerLink .registerLinkText {
+    font-size: 20px;
+    font-weight: 500;
+    color: black
+}
+
+.registerLink .registerLinkButton {
+    background-color: #FB9300;
+    padding: 7px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.errorMessage {
+    font-size: 17px;
+    color: #DA0037;
+    align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+    .logoContainer .logoText {
+        font-size: 46px;
+    }
+    .loginLeft .loginDesc {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .logoContainer .logoText {
+        font-size: 32px;
+    }
+    .loginLeft .loginDesc {
+        font-size: 17px;
+    }
+    .registerLink .registerLinkText {
+        font-size: 17px;
+    }
+    .errorMessage {
+        font-size: 15px;
+    }
+}

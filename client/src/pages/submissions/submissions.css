@@ -1,0 +1,50 @@
+.submissions {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.submissions .title {
+    flex: 3;
+    margin: 30px 0;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.eachPost {
+    flex: 6;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.downloadButton {
+    flex: 3;
+    width: 30%;
+    margin-top: 100px;
+    background-color: #3C8DAD;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    align-self: center;
+    font-size: larger;
+    color: #D3E0EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 4px solid #3C8DAD;
+    border-style: groove;
+}
+
+.downloadIcon {
+    margin-left: 7px;
+}
+
+.noPosts {
+    align-self: center;
+    font-size: larger;
+}

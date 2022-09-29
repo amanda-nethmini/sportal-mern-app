@@ -1,0 +1,71 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #D3E0EA;
+}
+
+.homeWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.homeTop .userHome {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.homeBottom .dashboard {
+    height: 320px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C8DAD;
+    border-radius: 20px;
+    border: 6px solid #D3E0EA;
+    border-style: groove;
+    margin-top: 90px;
+    padding: 20px;
+}
+
+.dashboard .dashboardItem {
+    height: 30px;
+    width: 70%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 12px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.dashboard .dashboardButton {
+    width: 40%;
+    border: none;
+    background-color: #FB9300;
+    border-radius: 10px;
+    color:rgb(224, 222, 222);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    margin-top: 17px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FB9300;
+    border-style: groove;
+}
+
+.submitIcon {
+    margin-left: 6px;
+}
